@@ -114,8 +114,29 @@ footer { background: #111; color: rgba(255,255,255,0.6); text-align: center; pad
   nav ul { display: none; position: absolute; top: 100%; left: 0; width: 100%; background: var(--light); flex-direction: column; padding: 1rem 2rem; gap: 1rem; border-bottom: 1px solid rgba(0,0,0,0.1); }
   nav ul.open { display: flex; }
   .menu-toggle { display: block; }
+  nav a { padding: 0.5rem 0; font-size: 1rem; }
+  .hero { padding: 5rem 1.5rem 3rem; }
+  .hero p { font-size: 1.05rem; }
+  section { padding: 3.5rem 1.5rem; }
   .gallery-grid { grid-template-columns: 1fr 1fr; }
   .gallery-grid img { height: 200px; }
+  .contact-links { gap: 1rem; }
+  .contact-link { padding: 0.9rem 1.2rem; min-height: 48px; }
+  .btn { padding: 0.85rem 1.8rem; min-height: 48px; display: inline-flex; align-items: center; }
+}
+
+@media (max-width: 400px) {
+  nav { padding: 0.8rem 1rem; }
+  nav .logo { font-size: 1.1rem; }
+  .hero h1 { font-size: 2rem; }
+  .hero .cta { flex-direction: column; align-items: stretch; }
+  .hero .cta .btn { text-align: center; justify-content: center; }
+  .menu-grid { grid-template-columns: 1fr; }
+  .gallery-grid { grid-template-columns: 1fr; }
+  .gallery-grid img { height: 220px; }
+  .contact-links { flex-direction: column; align-items: stretch; }
+  section { padding: 2.5rem 1rem; }
+  .section-title h2 { font-size: 1.7rem; }
 }
 
 /* LIGHTBOX */
