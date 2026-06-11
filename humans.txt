@@ -1,0 +1,8 @@
+/* TEAM */
+Developer: Adverse Solutions
+Site: https://adversesolutions.com/
+Location: Charlotte, NC
+
+/* SITE */
+Last update: 2026/06/10
+Language: English

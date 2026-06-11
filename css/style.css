@@ -108,6 +108,9 @@ section { padding: 5rem 2rem; }
 
 /* FOOTER */
 footer { background: #111; color: rgba(255,255,255,0.6); text-align: center; padding: 2rem; font-size: 0.85rem; }
+footer .built-by { margin-top: 0.5rem; font-size: 0.75rem; }
+footer .built-by a { color: #f5a623; text-decoration: none; }
+footer .built-by a:hover { text-decoration: underline; }
 
 /* MOBILE */
 @media (max-width: 768px) {
